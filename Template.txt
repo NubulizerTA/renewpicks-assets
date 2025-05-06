@@ -1,68 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Shipping Policy Preview</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0b0f1a;
-      color: #ffffff;
-      padding: 40px;
-    }
-    .shipping-section, .return-section, .contact-section {
-      max-width: 800px;
-      margin: 0 auto 30px auto;
-      background-color: #111;
-      padding: 20px;
-      border-radius: 8px;
-    }
-    .shipping-section h2, .return-section h2, .contact-section h2 {
-      color: #ffffff;
-      border-bottom: 1px solid #333;
-      padding-bottom: 5px;
-    }
-    .shipping-section p, .return-section p, .contact-section p {
-      line-height: 1.6;
-    }
-    .contact-link {
-      color: #00ffcc;
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
+<!-- BEGIN RENEW PICKS POLICY SECTION -->
+<style>
+  .renew-wrapper {
+    font-family: Arial, sans-serif;
+    background-color: #0b0f1a;
+    color: #ffffff;
+    padding: 20px;
+    max-width: 820px;
+    margin: auto;
+    word-wrap: break-word;
+  }
 
-  <div class="shipping-section">
+  .renew-logo {
+    display: block;
+    margin: 0 auto 30px auto;
+    max-width: 200px;
+  }
+
+  .renew-box {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .renew-box h2 {
+    color: #ffffff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .renew-box a {
+    color: #00ffcc;
+    text-decoration: underline;
+  }
+</style>
+
+<div class="renew-wrapper">
+  <img class="renew-logo" src="https://cdn.jsdelivr.net/gh/NubulizerTA/renewpicks-assets/LOGO.png" alt="Renew Picks Logo">
+
+  <div class="renew-box">
     <h2>Shipping</h2>
     <p>
-      Orders ship from <strong>Springfield, Missouri</strong> within <strong>1 business day</strong>.<br>
-      We use <strong>USPS, UPS, or FedEx</strong> depending on the item size, weight, and your delivery location.<br>
-      <strong>Most items ship free</strong>. For oversized items, <strong>shipping costs are shown in the listing</strong> and calculated based on your location.<br>
-      Tracking is included with every order.
+      Orders ship from <strong>Springfield, Missouri</strong> within <strong>1 business day</strong>. We use <strong>USPS, UPS, or FedEx</strong> depending on the item size, weight, and your delivery location. <strong>Most items ship free</strong>. For oversized items, <strong>shipping costs are shown in the listing</strong> and calculated based on your location. Tracking is included with every order.
     </p>
   </div>
 
-  <div class="return-section">
+  <div class="renew-box">
     <h2>Returns</h2>
     <p>
-      We offer <strong>free 30-day returns</strong> on most items. If you're not satisfied, you can return the item for a full refund.<br>
-      Items must be returned in <strong>original condition</strong> with all included accessories. Returns of items that are used, damaged, or missing parts may be subject to a <strong>deduction of up to 50%</strong> from the refund, in accordance with eBay’s policy.<br>
-      We use <strong>tamper-proof countermeasures</strong> to ensure item integrity. Items returned missing components or showing signs of part-swapping may result in a denied refund.<br>
-      All returns are processed through the eBay returns center for tracking and buyer protection.
+      We offer <strong>free 30-day returns</strong> on most items. If you're not satisfied, you can return the item for a full refund. Items must be returned in <strong>original condition</strong> with all included accessories. Returns of items that are used, damaged, or missing parts may be subject to a <strong>deduction of up to 50%</strong>, in accordance with eBay’s policy. We use <strong>tamper-proof countermeasures</strong> to ensure item integrity. Items returned missing components or showing signs of part-swapping may result in a denied refund. All returns are processed through the eBay returns center for tracking and buyer protection.
     </p>
   </div>
 
-  <div class="contact-section">
+  <div class="renew-box">
     <h2>Contact Us</h2>
     <p>
-      Have a question or need help with your order? 
-      <a class="contact-link" href="https://www.ebay.com/usr/renewpicks?contact=1" target="_blank">
-        Send us a message on eBay
-      </a> 
-      and we’ll get back to you promptly.
+      Have a question? We're here to help. To contact us:
+    </p>
+    <ol>
+      <li>Go to our store page: <a href="https://www.ebay.com/str/renewpicks" target="_blank" rel="noopener noreferrer">Renew Picks on eBay</a></li>
+      <li>Click the “<strong>Contact</strong>” link under our logo or profile name</li>
+      <li>Choose your topic and send us a message through eBay</li>
+    </ol>
+    <p>
+      We'll respond promptly during regular business hours. While you're there, feel free to check out our other quality items — new finds are added regularly!
     </p>
   </div>
-
-</body>
-</html>
+</div>
+<!-- END RENEW PICKS POLICY SECTION -->
